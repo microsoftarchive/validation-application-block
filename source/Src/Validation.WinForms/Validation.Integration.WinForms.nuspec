@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<package xmlns="http://schemas.microsoft.com/packaging/2010/07/nuspec.xsd">
+  <metadata schemaVersion="2">
+    <id>EnterpriseLibrary.Validation.Integration.WinForms</id>
+    <version>$Microsoft_Practices_EnterpriseLibrary_Validation_Integration_WinForms_Version$</version>
+    <title>Validation Application Block Integration with WinForms (PRE-RELEASE)</title>
+    <authors>Microsoft</authors>
+    <owners>Microsoft; patterns-and-practices</owners>
+    <licenseUrl>http://opensource.org/licenses/Apache-2.0</licenseUrl>
+    <projectUrl>http://vab.codeplex.com</projectUrl>
+    <requireLicenseAcceptance>true</requireLicenseAcceptance>
+    <description>This component allows the Validation Application Block to integrate with WinForms.</description>
+    <summary>This component allows the Validation Application Block to integrate with WinForms.</summary>
+    <tags>entlib entlib6 Enterprise Library validation validator vab winforms form LOB futures OSS</tags>
+    <dependencies>
+      <dependency id="EnterpriseLibrary.Validation" version="$Microsoft_Practices_EnterpriseLibrary_Validation_Version$" />
+    </dependencies>
+    <frameworkAssemblies>
+      <frameworkAssembly assemblyName="mscorlib" targetFramework=".NETFramework4.5" />
+      <frameworkAssembly assemblyName="System.Windows.Forms" targetFramework=".NETFramework4.5" />
+    </frameworkAssemblies>
+  </metadata>
+  <files>
+    <file src="NuGet\Readme.txt" target="" />
+    <file src="NuGet\tools\SharedCommon\install.ps1" target="tools" />
+    <file src="NuGet\tools\SharedCommon\Utils.psm1" target="tools" />
+  </files>
+</package>
